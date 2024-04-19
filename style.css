@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor0: #2F74E2;
+    --cor1: #2863C0;
+    --cor2: #3178EB;
+    --cor3: #21519E;
+    --cor4: #1A407C;
+    --cor5: #132E5A;
+
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-destaque: 'Jost';
+    
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #2f74e26b;
+}
+
+header {
+    background-color:var(--cor4);
+    color: white;
+    min-height: 100px;
+    text-align: center;
+    padding-top: 10px;
+    
+
+}
+
+header h1 {
+    font-family:var(--font-destaque);
+    
+}
+
+header p {
+    padding-top: 10px;
+    font-family:var(--font-destaque);
+}
+
+nav {
+   background-color: #0e2242;
+   padding: 7px;
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #4280e2;
+    padding-left: 8px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: rgb(45, 73, 199);
+}
+
+main {
+    font-family: var(--font-destaque);
+    background-color: #6299f1;
+
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 40px;
+
+/*     min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+
+    
+    padding-left: 40px;
+    padding-top: 7px; */
+    
+}
+
+main h2 {
+    margin-left: ;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+article {
+    text-align: center;
+}
+
+li {
+    line-height: 22px;
+    list-style-type: none;
+}
+
+footer {
+    font-family: var(--font-destaque);
+    font-size: 1.2em;
+    text-align: center;
+    background-color: var(--cor5);
+    color: white;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor0);
+}
+
+footer a:hover {
+    text-decoration: underline;
+    background-color: rgb(45, 73, 199);
+    border-radius: 5px;
+    
+}
+
+
